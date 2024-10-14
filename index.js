@@ -117,4 +117,4 @@ if (!shell.grep(exportCommand, shellConfigFile)) {
     console.log('Added git-user-fixer to PATH via ' + shellConfigFile);
 }
 
-console.log("Installation complete. You can now use the 'git-user-fixer' command.");
+console.log("Installation complete. Source your " + shellConfigFile + " and then you can use the 'git-user-fixer' command.");
