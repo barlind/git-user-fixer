@@ -1,0 +1,18 @@
+{
+  "name": "git-user-fixer",
+  "version": "1.0.0",
+  "description": "Change the comitted user of a specific commit - DANGER WILL ROBINSON, USE WITH CAUTION",
+  "main": "index.js",
+  "bin": {
+    "git-user": "index.js"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.4",
+    "inquirer": "^8.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "barlind",
+  "license": "MIT"
+}
